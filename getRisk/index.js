@@ -1,10 +1,10 @@
 //SQL Server
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host: "konfio-hackmx.c7dhdhum783t.us-east-2.rds.amazonaws.com",
-    user: "mota",
-    password: "Javieruchiha1$",
-    database: "konfio_db",
+    host: "<host>",
+    user: "<user>",
+    password: "<pass>",
+    database: "<db>",
 });
 
 //Main handler
