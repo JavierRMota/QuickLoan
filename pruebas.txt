@@ -1,0 +1,22 @@
+{
+     "nombre": "3",
+    "telefono": "1",
+    "correo": "M",
+    "cantidad": 100,
+    "plazo": 100,
+    "ingreso": 100,
+    "puntosSAT": 100,
+    "puntosBuro": 100,
+    "tipo":"solicitud"
+
+}
+
+nombre: msg["nombre"],
+   tipo: msg["tipo"],
+   correo: msg["telefono"],
+   correo: msg["correo"],
+   cantidad: msg["cantidad"],
+   plazo: msg["plazo"],
+   ingreso: msg["ingreso"],
+   puntosSAT: msg["SAT"],
+   puntosBuro: msg["BURO"],
